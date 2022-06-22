@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Chương 2 comment
+     Đây là đoạn comment dùng để tạo chú thích cho đoạn code của chúng ta
+    Nó không được hiển thị tra trong phần thân của chương trình  -->
+
+    <!-- Chương 3: Các định dạng văn bản và các tính năng xử lí văn bản trong html
+        1. h1- h6 : kích thước cho các tiêu đề (heading)
+        - thường chỉ dùng duy nhất 1 thẻ h1 cho 1 file html thôi 
+        - các thẻ có kích chữ nhỏ hơn thì sẽ dùng các thẻ h2-h6
+        2. p tức là paragraph 
+        - mỗi khi chúng ta muốn sử dụng để trình bày một đoạn văn. nó sẽ hiển thị như một khối block
+            tách biệt với các khối khác bởi một dòng trống (blank line) hoặc dòng đầu tiên của nó
+            hơi thụt lề (indent)
+
+
+        3. img viết tắt của image
+        - sau dòng chữ img + tab: nó sẽ thể hiện câu lệnh kiểu 
+            <img src = "link nào đó dantri.com" alt "">
+            trong ngoặc kép của alt "" nó mang ý nghĩa là khi cái link trong src bị lỗi thì nó sẽ 
+            hiển thị ra một icon ảnh kèm dòng chú thích ảnh đó trong dấu "" cho người dùng hiểu đó 
+            là cái gì
+
+        4. a viết tắt của anchor (mỏ neo)
+        - Đây là thẻ mà ta có thể đặt được liên kết vào bên trong html
+
+        5. ul, li : danh sách chứa nhiều phần tử bên trong
+        - unodered list: một danh sách tùy ý theo một thứ tự 
+        - list item:  một danh sách chứa nhiều phần tử ở bên trong   
+
+        6. table 
+        - ta sẽ sử dụng nó mỗi khi ta kẻ ra một cái bảng. 
+        cấu trúc của phần table này bao gồm 
+        <thead>
+        phần đầu này có nhiệm vụ giữ vị trí cố định cho các title
+        </thead>
+        <tr>: đây là cấu trúc nằm ở phần thân của bảng 
+
+        </tr>
+        Đặc tính của bảng là đặt tất cả vào trong 
+
+        7. input 
+        - thẻ input có cú pháp là input type = "text" cho phép ta có thể nhập chữ được vào bên trong
+        - với cú pháp <input type = "checkbox"> thì ta sẽ có các ô vuông để tích vào(tích được nhiều lượt)
+        - với cú pháp <input type = "radio"> thì sẽ sinh ra các hình tròn
+         và nếu ta muốn setup chỉ được tích một cái thì sẽ phải cho nó vào chung một cái tên
+         <input name = "gender" type = "radio"
+
+        8. button
+
+        9.div
+
+
+        -->
+
+    <head>
+        <title> Bánh Đa Cua Hải Phòng</title>
+        <meta charset = "utf - 8">
+    </head>
+    <body>
+         <!-- Xin chào các bạn đã đến với cửa hàng bánh đa cua của chúng tôi! -->
+         <h1>Xin chào các bạn đã đến với cửa hàng bánh đa cua của chúng tôi!</h1>
+         <p> Món bánh đa cua (theo truyền thống địa phương luôn sử dụng cua đồng và bánh đa đỏ) và nem cua bể (theo phong cách địa phương hay được gói kiểu hình vuông giống như chiếc bánh chưng ngày Tết) được nhiều người xem là hai món ăn có tính đại diện rõ nhất cho phong cách chế biến ẩm thực của Hải Phòng.[4][5] Lý do có thể bởi những ai từng thưởng thức hai món này khi được những người sành về ẩm thực Hải Phòng chế biến thì họ không chỉ bị chinh phục về vị giác ở cái ẩm vị đặc biệt của một bát bánh đa cua hay một đĩa nem cua bể đúng phong cách Đất Cảng mà còn bị lôi cuốn ở khía cạnh thị giác bởi tính thẩm mỹ của chúng. Bởi vì, một bát bánh đa cua được chế biến kết hợp cả yếu tố truyền thống lẫn hiện đại đúng phong cách Hải Phòng thực sự là một bức tranh tổng hòa đa hình dạng, đa sắc màu rất bắt mắt, phong phú của các nguyên liệu. Cả hai món ăn này đều có sự kết hợp hài hòa giữa tính truyền thống và hiện đại, tính dân dã hòa trộn với nét tinh tế thanh lịch.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/BANH_DA_CUA_1.jpg/450px-BANH_DA_CUA_1.jpg" alt="ảnh bánh đa cua">
+        <a href="https://vi.wikipedia.org/wiki/B%C3%A1nh_%C4%91a_cua">Tới trang giới thiệu về lược sử bánh đa cua</a>
+        <ul>
+            <li>giới thiệu lịch sử</li>
+            <li>các thành phần trong bánh đa cua</li>
+            <li>cách chế biến</li>
+            <li>Kết luận</li>
+        </ul>
+        <table>
+            <thead>
+                <!-- th có nhiệm vụ tạo tille cho các bảng -->
+            <th>Stt</th>     
+            <th>Tên</th>
+            <th>Địa chỉ</th>
+            </thead>
+            <!-- Bên trên có bao nhiêu thẻ th thì bên dưới sẽ có bấy nhiêu thẻ td 
+                các thẻ td nằm trong cụm tr(table row)-->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ngô Hùng</td>
+                    <td>Hà Nội</td>
+                    
+                    <td>2</td>
+                    <td>Gia Tuệ</td>
+                    <td>Hà Nội</td>
+                    
+                    <td>3</td>
+                    <td>Minh Trí</td>
+                    <td>Hà Nội</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Nhằm nắm bắt được thị hiếu của người tiêu dùng, chúng tôi xin phép tham khảo ý kiến các bẹn
+        </h2>
+        <h3>
+            Các bạn có thích ăn bánh đa cua không
+        </h3>
+        <input name = gender type="radio">
+        <input name = gender type="radio">
+        <input name = gender type="radio">
+        <input name = gender type="radio">
+        <input name = gender type="radio">
+    </body>
+</html>
