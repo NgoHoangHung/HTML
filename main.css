@@ -1,8 +1,7 @@
-#first-heading{
-    color: blueviolet;
-    font-size: 40px;
+html{
+    color: blue;
+    
 }
-.second-heading{
-    color: green;
-    font-size: 30px;
+li{
+    color: orange;
 }
